@@ -8,3 +8,5 @@ router.post('/',comentarioController.crear);
 router.get('/',comentarioController.obtener);
 //eliminar comentario
 router.delete('/:id',comentarioController.eliminar);
+
+module.exports = router;
